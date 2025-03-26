@@ -23,6 +23,20 @@ override.tf.json
 *_override.tf
 *_override.tf.json
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Terraform lock file
+*.lock.hcl
+
+# Terraform folder
+.terraform\
+=======
+>>>>>>> 4f047fb (initial commit)
 # Ignore transient lock info files created by terraform apply
 .terraform.tfstate.lock.info
 
@@ -35,3 +49,7 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+<<<<<<< HEAD
+=======
+>>>>>>> 3e3b4a920451494a07aad01e28bef3c1d6af9478
+>>>>>>> 4f047fb (initial commit)
